@@ -1,3 +1,5 @@
 [user]
 	email = christian@careaboutyourcraft.com
 	name = Christian Gonzalez
+[url "git@github.com:"] # Always clone via SSH so the origin is set to SSH instead of HTTPS for following pushes
+	insteadOf = https://github.com/
