@@ -17,8 +17,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
         -- Only run this if the attached server is rust-analyzer
         if client and (client.name == "rust_analyzer" or client.name == "rust-analyzer" or client.name == "rustaceanvim") then
-            vim.notify("Rustaceanvim on_attach is running!", vim.log.levels.INFO)
-
             local map = function(keys, func, desc)
                 vim.keymap.set("n", keys, func, { buffer = bufnr, desc = desc })
             end

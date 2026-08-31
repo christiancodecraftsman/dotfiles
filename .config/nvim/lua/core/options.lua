@@ -27,3 +27,5 @@ opt.termguicolors = true  -- Enable 24-bit RGB colors
 opt.clipboard = "unnamedplus" -- Sync Neovim clipboard with system clipboard
 opt.updatetime = 50           -- Decrease update time for faster completion
 opt.undofile = true           -- Persist undo history even after closing files
+
+opt.mouse = ""                -- Disable mouse
