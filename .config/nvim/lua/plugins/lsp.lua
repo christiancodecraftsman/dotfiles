@@ -21,7 +21,7 @@ return {
                     completion = {
                         callSnippet = "Replace", -- Better snippet behavior
                     },
-                }
+                },
             }
         })
 
